@@ -1,0 +1,29 @@
+.company-headquarters__visitation {
+  width: 191px;
+  height: 48px;
+  margin: 32px 0 0;
+  z-index: 1;
+  position: relative;
+}
+
+@media (max-width: 720px) {
+  * {
+    transition: 0.4s ease-in-out;
+  }
+
+  .company-headquarters__visitation {
+    margin-bottom: 45px;
+  }
+}
+
+@media (max-width: 484px) {
+  * {
+    transition: 0.4s ease-in-out;
+  }
+
+  .company-headquarters__visitation {
+    width: 191px;
+    height: 48px;
+    margin-bottom: 45px;
+  }
+}

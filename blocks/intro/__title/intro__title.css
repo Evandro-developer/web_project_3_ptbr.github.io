@@ -1,0 +1,40 @@
+.intro__title {
+  font-size: 54px;
+  line-height: 58px;
+  color: #fff;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap; 
+  max-width: 1017px;
+  max-height: 116px;
+  margin: 0;
+  padding-bottom: 40px;
+  display: inline-table;
+  position: relative;
+  left: 16px;
+}
+
+@media (max-width: 876px) {
+  * {
+    transition: 0.4s ease-in-out;
+  }
+
+  .intro__title {
+    position: relative;
+    left: 0;
+    padding: 0 24px 40px;
+  }
+}
+
+@media (max-width: 484px) {
+  * {
+    transition: 0.4s ease-in-out;
+  }
+
+  .intro__title {
+    font-size: 32px;
+    line-height: 35px;
+    padding: 0 16px 9px;
+  }
+}

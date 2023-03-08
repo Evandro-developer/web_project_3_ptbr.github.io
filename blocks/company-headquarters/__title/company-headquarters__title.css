@@ -1,0 +1,51 @@
+.company-headquarters__title {
+  font-size: 72px;
+  line-height: 76px;
+  color: #fff;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;  
+  max-width: 656px;
+  max-height: 76px;
+  text-align: center;
+  margin: 0;
+  padding-top: 243px;
+  z-index: 1;
+}
+
+@media (max-width: 720px) {
+  * {
+    transition: 0.4s ease-in-out;
+  }
+
+  .company-headquarters__title {
+    font-size: 54px;
+    line-height: 58px;
+    padding-top: 126px;
+  }
+}
+
+@media (max-width: 484px) {
+  * {
+    transition: 0.4s ease-in-out;
+  }
+
+  .company-headquarters__title {
+    font-size: 32px;
+    padding-top: 166px;
+  }
+}
+
+@media (max-width: 355px) {
+  * {
+    transition: 0.4s ease-in-out;
+  }
+
+  .company-headquarters__title {
+    font-size: 32px;
+    line-height: 35px;
+    width: 288px;
+    padding-top: 46px;
+  }
+}

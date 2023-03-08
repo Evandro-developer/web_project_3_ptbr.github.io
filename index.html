@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Web Site responsivo web_project_3">
+  <meta name="keywords" content="html, css">
+  <meta name="author" content="Evandro de Melo Aluno da Practicum">
+  <title>Viagem de Pátria para Pátria</title>
+  <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+  <div class="page">
+    <div class="root">
+      <header class="header">
+        <picture>
+          <source media="(max-width: 484px)" srcset="./images/__logo_small.svg" class="header__logo">
+          <img src="./images/__logo.svg" alt="logo da Practicum" class="header__logo">
+        </picture>
+        <h1 class="header__title">Viagem de Pátria para Pátria</h1>
+        <h2 class="header__subtitle">
+          Uma jornada épica do Kentucky ao Burundi pelo País de Gales e
+          Ucrânia
+        </h2>
+        <picture class="header__kalegin-michail">
+          <img src="./images/kalegin-michail.png" alt="Uma paisagem com um vilarejo a beira mar"
+            class="header__image">
+        </picture>
+      </header>
+      <main>
+        <div class="intro">
+          <h2 class="intro__title">
+            Conheça um pouco melhor os lugares de onde seus amigos online vêm
+          </h2>
+          <div class="intro__container">
+            <div class="intro__quote">
+              Todo ser humano é um artista, um ser livre, convocado para
+              participar da transformação e remodelação das condições,
+              pensamentos e estruturas que moldam e informam nossas vidas.
+            </div>
+            <span class="intro__author">— Joseph Beuys</span>
+            <p class="intro__text">
+              A cidade de Practicum reuniu profissionais de diversos cantos do
+              mundo. Hoje, a Galeria de Arte Practicum tem o orgdivho de
+              apresentar histórias e fotos de algumas das pessoas que dedicam
+              seu tempo e esforço para fazer com que os futuros profissionais
+              de tecnologia desta cidade se sintam em casa. Cada um de nós tem
+              uma história única sobre o lugar de onde viemos. Sinta-se à
+              vontade para adicionar sua própria história e uma obra de arte
+              visual dedicada à sua cidade natal à nossa coleção. Não importa
+              de onde você é, estamos felizes por você ser nosso vizinho.
+            </p>
+          </div>
+        </div>
+        <div class="photo-grid">
+          <picture>
+            <source srcset="./images/__image1_small.png" class="photo-grid__item" media="(max-width: 484px)">
+            <source srcset="./images/__image1_large.png" class="photo-grid__item" media="(max-width: 768px)">
+            <img src="images/__image1_medium.png" alt="Uma paisagem com uma cidade a beira mar"
+              class="photo-grid__item">
+          </picture>
+          <picture>
+            <source srcset="./images/__image2_small.png" class="photo-grid__item" media="(max-width: 484px)">
+            <source srcset="./images/__image2_large.png" class="photo-grid__item" media="(max-width: 768px)">
+            <img src="images/__image2_medium.png" alt="Uma paisagem com uma cidade a beira mar"
+              class="photo-grid__item">
+          </picture>
+          <picture>
+            <source srcset="./images/__image3_small.png" class="photo-grid__item" media="(max-width: 484px)">
+            <source srcset="./images/__image3_large.png" class="photo-grid__item" media="(max-width: 768px)">
+            <img src="images/__image3_medium.png" alt="Uma paisagem de uma cidade com uma igreja ao fundo"
+              class="photo-grid__item">
+          </picture>
+          <picture>
+            <source srcset="./images/__image4_small.png" class="photo-grid__item" media="(max-width: 484px)">
+            <source srcset="./images/__image4_large.png" class="photo-grid__item" media="(max-width: 768px)">
+            <img src="images/__image4_medium.png" alt="Uma paisagem de uma cidade com uma ponte sobre um rio"
+              class="photo-grid__item">
+          </picture>
+          <picture>
+            <source srcset="./images/__image5_small.png" class="photo-grid__item" media="(max-width: 484px)">
+            <source srcset="./images/__image5_large.png" class="photo-grid__item" media="(max-width: 768px)">
+            <img src="images/__image5_medium.png"
+              alt="Uma paisagem de uma fazenda com árvores e uma propriedade ao fundo" class="photo-grid__item">
+          </picture>
+          <picture>
+            <source srcset="./images/__image6_small.png" class="photo-grid__item" media="(max-width: 484px)">
+            <source srcset="./images/__image6_large.png" class="photo-grid__item" media="(max-width: 768px)">
+            <img src="images/__image6_medium.png"
+              alt="Uma paisagem de uma cidade com uma calçada, jardins, árvores e propriedades ao fundo "
+              class="photo-grid__item">
+          </picture>
+          <picture>
+            <source srcset="./images/__image7_small.png" class="photo-grid__item" media="(max-width: 484px)">
+            <source srcset="./images/__image7_large.png" class="photo-grid__item" media="(max-width: 768px)">
+            <img src="images/__image7_medium.png"
+              alt="Uma paisagem de uma vila com casas típicas de Burundi e um homem em frente a uma delas"
+              class="photo-grid__item">
+          </picture>
+          <picture>
+            <source srcset="./images/__image8_small.png" class="photo-grid__item" media="(max-width: 484px)">
+            <source srcset="./images/__image8_large.png" class="photo-grid__item" media="(max-width: 768px)">
+            <img src="images/__image8_medium.png" alt="Uma paisagem de duas casas com com um monte ao fundo"
+              class="photo-grid__item">
+          </picture>
+        </div>
+        <div class="places">
+          <div class="places__item">
+            <h2 class="places__title places__title_size">Kiev, Ucrânia</h2>
+            <div class="places__author">
+              <h3 class="places__artista">Artista</h3>
+              <p class="places__description">
+                Natalia Dolgushina, produtora de conteúdo
+              </p>
+            </div>
+            <picture class="places__photo">
+              <source media="(max-width: 355px)" srcset="./images/Kiev-Ucrania_small.png" class="places__image">
+              <source media="(max-width: 484px)" srcset="./images/Kiev-Ucrania_small.png" class="places__image">
+              <source media="(max-width: 720px)" srcset="./images/Kiev-Ucrania_medium.png" class="places__image">
+              <source media="(max-width: 768px)" srcset="./images/Kiev-Ucrania_medium.png" class="places__image">
+              <img src="./images/Kiev-Ucrania_large.png"
+                alt="Uma paisagem da cidade de Kiev, Ucrânia, com uma ponte sobre um rio" class="places__image">
+            </picture>
+            <div class="places__paragrafh">
+              <p class="places__text">
+                Kyev (ou Kiev), capital da Ucrânia, é uma grande cidade
+                localizada às margens do rio Dnipro. É claro que ninguém em sã
+                consciência nadaria no rio, a menos que tenha crescido lá, e
+                nesse caso provavelmente já tentou em algum momento. Os verões
+                são quentes aqui e os invernos são frios, mas o outono e a
+                primavera são absolutamente incríveis.
+              </p>
+              <p class="places__text">
+                A cidade em si é uma mistura de arquitetura pré-revolução,
+                pós-guerra e soviética, toda ela salpicada de varandas
+                modificadas. Se estiver na margem direita do Dnipro, a
+                paisagem é difícil de percorrer para quem anda de bicicleta e
+                quem usa salto. A margem esquerda é considerada muito menos
+                interessante e prestigiosa, mesmo por pessoas que vivem na
+                periferia da margem direita.
+              </p>
+            </div>
+            <div class="places__buy">
+              <div class="button">
+                <a href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
+                  target="_blank" rel="noopener noreferrer">
+                  <p class="button__text">
+                    Compre esta obra de arte como NFT
+                  </p>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="places__item">
+            <h2 class="places__title places__title_large">
+              Criccieth, País de Gales
+            </h2>
+            <div class="places__author places__author_large">
+              <h3 class="places__artista">Artistas</h3>
+              <p class="places__description">Steffan Warren, editor-chefe</p>
+              <p class="places__description">
+                Kseniya Glagoleva, gerente de projeto
+              </p>
+            </div>
+            <picture class="places__photo">
+              <source media="(max-width: 355px)" srcset="./images/Criccieth-Pais-de-Gales_small.png"
+                class="places__image">
+              <source media="(max-width: 484px)" srcset="./images/Criccieth-Pais-de-Gales_small.png"
+                class="places__image">
+              <source media="(max-width: 720px)" srcset="./images/Criccieth-Pais-de-Gales_medium.png"
+                class="places__image">
+              <source media="(max-width: 768px)" srcset="./images/Criccieth-Pais-de-Gales_medium.png"
+                class="places__image">
+              <img src="./images/Criccieth-Pais-de-Gales_large.png"
+                alt="Uma paisagem da cidade de Criccieth, País de Gales, a beira mar" class="places__image">
+            </picture>
+            <div class="places__paragrafh places__paragrafh_large">
+              <p class="places__text">
+                A ruína medieval do Castelo de Cricieth tem vista para a
+                cidade abaixo de uma rocha que se projeta para o mar.
+                Acredita-se que tenha sido construído por Llewelyn, o Grande,
+                no século XIII. Cerca de 900 anos depois, a auto-intitulada
+                *Pérola de Gales nas margens de Snowdonia* tornou-se um
+                destino turístico popular durante os meses de verão.
+              </p>
+              <p class="places__text">
+                A uma curta caminhada da estrada do castelo, você pode
+                desfrutar do melhor sorvete do mundo no Cadwalader's, cujo
+                ingrediente secreto, segundo rumores, são algas marinhas de
+                origem local. Outra reivindicação à fama é o fato de que
+                Criccieth ganhou o prêmio *Wales in Bloom* por cinco anos
+                consecutivos por suas espetaculares exibições florais pela
+                cidade. Foi também a casa de David Lloyd George, o único galês
+                a ocupar o cargo de primeiro-ministro do Reino Unido.
+              </p>
+            </div>
+            <div class="places__buy">
+              <div class="button">
+                <a href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
+                  target="_blank" rel="noopener noreferrer">
+                  <p class="button__text">
+                    Compre esta obra de arte como NFT
+                  </p>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="places__item">
+            <h2 class="places__title places__title_size">Berea, EUA</h2>
+            <div class="places__author">
+              <h3 class="places__artista">Artista</h3>
+              <p class="places__description">Travis Turner, autor e editor</p>
+            </div>
+            <picture class="places__photo">
+              <source media="(max-width: 355px)" srcset="./images/Berea-EUA_small.png" class="places__image">
+              <source media="(max-width: 484px)" srcset="./images/Berea-EUA_small.png" class="places__image">
+              <source media="(max-width: 720px)" srcset="./images/Berea-EUA_medium.png" class="places__image">
+              <source media="(max-width: 768px)" srcset="./images/Berea-EUA_medium.png" class="places__image">
+              <img src="./images/Berea-EUA_large.png"
+                alt="Uma paisagem de uma rua da cidade de Berea, EUA, com carros, árvores, casas e calçadas"
+                class="places__image">
+            </picture>
+            <div class="places__paragrafh">
+              <p class="places__text">
+                Berea é uma pequena cidade localizada na parte central do
+                Kentucky. A cidade é cercada por belas florestas e campos. É
+                conhecida como a capital do artesanato do estado, e os
+                visitantes encontrarão muitas oportunidades de compras: lojas
+                com bijuterias artesanais, velas, artigos de madeira,
+                galerias, ateliês de vidro e muito mais. A cidade realiza um
+                festival anual que celebra o "pão de colher", um prato local
+                feito com pão de milho e servido com uma colher de pau.
+              </p>
+              <p class="places__text">
+                No entanto, provavelmente é mais conhecido pela faculdade
+                local. O Berea College foi fundado em 1855 e foi o primeiro
+                colégio no sul a ser racialmente integrado, bem como o
+                primeiro a ser misto. De forma um tanto singular, não cobra
+                mensalidades - todo aluno recebe uma bolsa de estudos
+                integral.
+              </p>
+            </div>
+            <div class="places__buy">
+              <div class="button">
+                <a href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
+                  target="_blank" rel="noopener noreferrer">
+                  <p class="button__text">
+                    Compre esta obra de arte como NFT
+                  </p>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="places__item">
+            <h2 class="places__title places__title_size">
+              Muramvya, Burundi
+            </h2>
+            <div class="places__author">
+              <h3 class="places__artista">Artista</h3>
+              <p class="places__description">
+                Grevisse Kenguruka, editor técnico
+              </p>
+            </div>
+            <picture class="places__photo">
+              <source media="(max-width: 355px)" srcset="./images/Muramvya-Burundi_small.png" class="places__image">
+              <source media="(max-width: 484px)" srcset="./images/Muramvya-Burundi_small.png" class="places__image">
+              <source media="(max-width: 720px)" srcset="./images/Muramvya-Burundi_medium.png" class="places__image">
+              <source media="(max-width: 768px)" srcset="./images/Muramvya-Burundi_medium.png" class="places__image">
+              <img src="./images/Muramvya-Burundi_large.png"
+                alt="Uma paisagem da cidade de Muramvya, Burundi, com uma torre de celular, casas e árvores ao fundo"
+                class="places__image">
+            </picture>
+            <div class="places__paragrafh">
+              <p class="places__text">
+                Muramvya é uma das 18 províncias de Burundi. Na era do reino,
+                Muramvya era a capital real e em 2007, por causa de sua
+                paisagem cultural e natural, foi adicionada à Lista Provisória
+                do Patrimônio Mundial da UNESCO. Está localizada no centro de
+                Burundi, entre as capitais políticas e econômicas do país.
+              </p>
+              <p class="places__text">
+                O clima é bastante frio à noite, mas durante o dia, você
+                pensaria que está no céu. A 2.665 metros (8.743 pés) acima do
+                nível do mar, o Monte Teza é um dos lugares mais frios da
+                província. Mas essa brisa fresca permite uma das maiores
+                plantações de chá e café do país, que representam a maior
+                parte das exportações do Burundi.
+              </p>
+              <p class="places__text">
+                O Parque Nacional de Kibira, uma das maiores reservas de vida
+                selvagem para macacos, se sobrepõe a quatro províncias,
+                incluindo Muramvya. Este Parque Nacional encontra-se no ápice
+                das belas montanhas do Congo-Nile Divide, variando entre 1.550
+                e 2.660 metros de altitude. Está repleta de uma bela vegetação
+                e fonte para os vários rios e riachos que fornecem água em
+                todo o país.
+              </p>
+            </div>
+            <div class="places__buy">
+              <div class="button">
+                <a href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
+                  target="_blank" rel="noopener noreferrer">
+                  <p class="button__text">
+                    Compre esta obra de arte como NFT
+                  </p>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="places__item">
+            <h2 class="places__title places__title_size">
+              Brasília - DF, Brasil
+            </h2>
+            <div class="places__author">
+              <h3 class="places__artista">Artista</h3>
+              <p class="places__description">
+                Evandro de Melo, desenvolvedor web
+              </p>
+            </div>
+            <picture class="places__photo">
+              <source media="(max-width: 355px)" srcset="./images/Brasilia-DF-Brasil_small.png" class="places__image">
+              <source media="(max-width: 484px)" srcset="./images/Brasilia-DF-Brasil_small.png" class="places__image">
+              <source media="(max-width: 720px)" srcset="./images/Brasilia-DF-Brasil_medium.png"
+                class="places__image">
+              <source media="(max-width: 768px)" srcset="./images/Brasilia-DF-Brasil_medium.png"
+                class="places__image">
+              <img src="./images/Brasilia-DF-Brasil_large.png"
+                alt="Uma paisagem da cidade de Brasília - DF, Brasil, com vista a partir da torre de TV até a praça dos trës poderes"
+                class="places__image">
+            </picture>
+            <div class="places__paragrafh places__paragrafh_size">
+              <p class="places__text">
+                A construção de Brasília foi a concretização de um projeto
+                nacional que existia desde o século XIX, cujo intuito era o de
+                levar a capital do nosso país para o planalto central. Essa
+                obra aconteceu entre 1957 e 1960 e foi viabilizada pelo
+                governo de Juscelino Kubitschek.
+              </p>
+              <p class="places__text">
+                Curiosidades sobre Brasília: Brasília foi inaugurada em 21 de
+                abril de 1960 à meia-noie sem ainda estar completamente
+                pronta. A capital foi reconhecida como Patrimônio Mundial pela
+                Unesco em 1987. Brasília tem a maior área tombada do mundo:
+                112,5 quilômetros quadrados.
+              </p>
+            </div>
+            <div class="places__buy">
+              <div class="button">
+                <a href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
+                  target="_blank" rel="noopener noreferrer">
+                  <p class="button__text">
+                    Compre esta obra de arte como NFT
+                  </p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="company-headquarters">
+          <div class="company-headquarters__container">
+            <picture>
+              <img src="./images/Visite.png" alt="Uma paisagem de uma fazenda com árvores e uma propriedade ao fundo"
+                class="company-headquarters__photo">
+            </picture>
+            <h2 class="company-headquarters__title">Visite-Nos</h2>
+            <h3 class="company-headquarters__subtitle">
+              Durante todo o ano Galeria de Arte Practicum 404, Avenida Tim
+              Berners-Lee.
+            </h3>
+            <div class="button company-headquarters__visitation">
+              <a href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
+                target="_blank" rel="noopener noreferrer">
+                <p class="button__text button__text_company-headquarters-visitation">
+                  Comprar bilhetes
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer>
+        <div class="footer">
+          <p class="footer__copyrights">&copy; 2023 Evandro de Melo</p>
+        </div>
+      </footer>
+    </div>
+  </div>
+</body>
+
+</html>

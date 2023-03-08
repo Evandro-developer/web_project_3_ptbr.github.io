@@ -1,0 +1,38 @@
+.places__description {
+  font-size: 18px;
+  line-height: 22px;
+  color: #fff;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;  
+  max-width: 484px;
+  min-width: 288px;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 355px) {
+  * {
+    transition: 0.4s ease-in-out;
+  }
+
+  .places__description {
+    max-width: 288px;
+    row-gap: 50px;
+    margin: 0;
+  }
+}
+
+@media (max-width: 320px) {
+  * {
+    transition: 0.4s ease-in-out;
+  }
+  .places__description {
+    max-width: 288px;
+    row-gap: 50px;
+    margin: 0;
+  }
+}
+

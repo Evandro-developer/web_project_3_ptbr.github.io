@@ -1,0 +1,15 @@
+.intro__text {
+  font-size: 16px;
+  line-height: 26px;
+  color: #fff;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap; 
+  max-width: 720px;
+  max-height: 182px;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  display: inline-table;
+}

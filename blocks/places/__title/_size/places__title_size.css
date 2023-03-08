@@ -1,0 +1,74 @@
+.places__title_size {
+  max-width: 460px;
+  max-height: 152px;
+}
+
+@media (max-width: 981px) {
+  * {
+    transition: 0.4s ease-in-out;
+  }
+
+  .places__title_size {
+    font-size: 64px;
+    line-height: 68px;
+  }
+}
+
+@media (max-width: 876px) {
+  * {
+    transition: 0.4s ease-in-out;
+  }
+
+  .places__title_size {
+    font-size: 56px;
+    line-height: 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  * {
+    transition: 0.4s ease-in-out;
+  }
+
+  .places__title_size {
+    max-width: 340px;
+    max-height: 92px;
+    font-size: 42px;
+    line-height: 46px;
+  }
+}
+
+@media (max-width: 484px) {
+  * {
+    transition: 0.4s ease-in-out;
+  }
+
+  .places__title_size {
+    font-size: 32px;
+    line-height: 35px;
+  }
+}
+
+@media (max-width: 355px) {
+  * {
+    transition: 0.4s ease-in-out;
+  }
+  .places__title_size {
+    max-width: 288px;
+    font-size: 32px;
+    line-height: 35px;
+    padding: 0 12px;
+  }
+}
+
+@media (max-width: 320px) {
+  * {
+    transition: 0.4s ease-in-out;
+  }
+  .places__title_size {
+    max-width: 288px;
+    font-size: 32px;
+    line-height: 35px;
+    padding: 0 12px;
+  }
+}

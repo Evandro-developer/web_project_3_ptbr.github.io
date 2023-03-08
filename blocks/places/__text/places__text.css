@@ -1,0 +1,55 @@
+.places__text {
+  font-size: 18px;
+  line-height: 1.2;
+  color: #fff;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;  
+  text-align: left;
+  margin: 0;
+  padding: 0;  
+}
+
+@media (max-width: 876px) {
+  * {
+    transition: 0.4s ease-in-out;
+  }
+
+  .places__text {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  * {
+    transition: 0.4s ease-in-out;
+  }
+
+  .places__text {
+    font-size: 16px;
+    line-height: 1.2;
+  }
+}
+
+@media (max-width: 720px) {
+  * {
+    transition: 0.4s ease-in-out;
+  }
+  .places__text {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+
+@media (max-width: 320px) {
+  * {
+    transition: 0.4s ease-in-out;
+  }
+  .buttom__text {
+    font-size: 14px;
+    line-height: 18px;
+    width: 245px;
+    height: 17px;
+  }
+}

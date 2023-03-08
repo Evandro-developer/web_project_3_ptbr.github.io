@@ -1,0 +1,38 @@
+.footer__copyrights {
+  font-size: 14px;
+  line-height: 16px;
+  color: #fff;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;  
+  max-width: 185px;
+  max-height: 16px;
+  text-align: center;
+  margin: 0;
+  padding: 92px 0 24px;
+}
+
+@media (max-width: 484px) {
+  * {
+    transition: 0.4s ease-in-out;
+  }
+
+  .footer__copyrights {
+    font-size: 14px;
+    line-height: 14px;
+    padding: 64px 0 24px;
+  }
+}
+
+@media (max-width: 355px) {
+  * {
+    transition: 0.4s ease-in-out;
+  }
+
+  .footer__copyrights {
+    font-size: 14px;
+    line-height: 14px;
+    padding: 64px 0 24px;
+  }
+}

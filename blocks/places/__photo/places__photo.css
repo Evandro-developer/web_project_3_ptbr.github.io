@@ -1,0 +1,37 @@
+.places__photo {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  object-fit: cover;
+  grid-area: places__photo;
+}
+
+@media (max-width: 768px) {
+  * {
+    transition: 0.4s ease-in-out;
+  }
+  .places__photo {
+    max-width: 340px;
+    max-height: 340px;
+  }
+}
+
+@media (max-width: 355px) {
+  * {
+    transition: 0.4s ease-in-out;
+  }
+  .places__photo {
+    max-width: 355px;
+    max-height: 355px;
+  }
+}
+
+@media (max-width: 320px) {
+  * {
+    transition: 0.4s ease-in-out;
+  }
+  .places__photo {
+    max-width: 320px;
+    max-height: 320px;
+  }
+}

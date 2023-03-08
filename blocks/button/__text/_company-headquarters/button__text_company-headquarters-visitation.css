@@ -1,0 +1,19 @@
+.button__text_company-headquarters-visitation {
+  width: 151px;
+  height: 22px;
+  margin: 0;
+  z-index: 1;
+  position: relative;
+}
+
+@media (max-width: 484px) {
+  * {
+    transition: 0.4s ease-in-out;
+  }
+
+  .button__text_company-headquarters-visitation {
+    width: 151px;
+    height: 22px;
+    padding: 13px 20px;
+  }
+}

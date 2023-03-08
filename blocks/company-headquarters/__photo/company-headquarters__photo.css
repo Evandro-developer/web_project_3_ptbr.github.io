@@ -1,0 +1,15 @@
+.company-headquarters__photo {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: opacity ease-in-out 0.4s;
+  z-index: 1;
+}
+
+.company-headquarters__container:hover .company-headquarters__photo {
+  opacity: 0.8;
+}
