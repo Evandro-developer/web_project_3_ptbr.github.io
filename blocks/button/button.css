@@ -10,7 +10,7 @@
   background-size: cover;
   border-radius: 4px;
   border-bottom: none;
-  transition: ease-in-out 0.4s;  
+  transition: ease-in-out 0.4s;
   grid-area: button;
 }
 
