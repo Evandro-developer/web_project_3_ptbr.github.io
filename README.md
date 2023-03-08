@@ -3,7 +3,7 @@
 Funcionalidades:
 Site responsivo para diversas dimensões de telas.
 Links com transição suave de sobreposição e saída.
-Posisionamento absoluto de imagens para efeitos.
+Posicionamento absoluto de imagens para efeitos.
 Utilização de display flexível para o layout nas seções.
 Utilização de display grid para o layout nas seções.
 Organização das pastas de arquivos e imagens pelo método BEM - Bloco/Elemento/Modificador.
