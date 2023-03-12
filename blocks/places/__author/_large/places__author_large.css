@@ -1,0 +1,47 @@
+.places__author_large {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: -24px;
+}
+
+@media (max-width: 981px) {
+  * {
+    transition: 0.4s ease-in-out;
+  }
+
+  .places__author_large {
+    position: relative;
+    left: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  * {
+    transition: 0.4s ease-in-out;
+  }
+
+  .places__author_large {
+    position: relative;
+  }
+}
+
+@media (max-width: 355px) {
+  * {
+    transition: 0.4s ease-in-out;
+  }
+  .places__author_large {
+    max-width: 355px;
+    padding: 0 12px;
+  }
+}
+
+@media (max-width: 320px) {
+  * {
+    transition: 0.4s ease-in-out;
+  }
+  .places__author_large {
+    max-width: 288px;
+    padding: 0 12px;
+  }
+}
