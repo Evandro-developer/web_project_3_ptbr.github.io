@@ -11,5 +11,9 @@ Importação de estilos com o atributo @import das pastas de arquivos e imagens.
 Compatibilidade cross-browser e prefixos de fornecedores.
 Utilização de linguagem html com semântica adequada aos seus devidos propósitos.
 Recurso source para arquivos de imagem, auxilia no carregamento da imagem conforme a solicitação do layout.
+<<<<<<< HEAD
 Link para o GitHub: https://Evandro-developer.github.io/web_project_3_ptbr
+=======
+Link para o GitHub: https://evandro-developer.github.io/web_project_3_ptbr/
+>>>>>>> 60f34a67be67e323fcb3d3bb728020ac509f0a26
 -----------------------------------------------------------------------------------
