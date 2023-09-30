@@ -102,4 +102,4 @@ Comprar bilhetes
 
 Bloco de rodapé:
 
-© 2023. Evandro de Melo
+© 2023. Evandro M Oliveira

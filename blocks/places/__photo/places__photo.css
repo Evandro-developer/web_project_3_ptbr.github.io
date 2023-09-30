@@ -1,5 +1,5 @@
 .places__photo {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
   object-fit: cover;
@@ -16,17 +16,18 @@
   }
 }
 
-@media (max-width: 355px) {
+@media (max-width: 484px) {
   * {
     transition: 0.4s ease-in-out;
   }
   .places__photo {
-    max-width: 355px;
-    max-height: 355px;
+    max-width: 484px;
+    max-height: 484px;
+    padding: 0 12px;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 355px) {
   * {
     transition: 0.4s ease-in-out;
   }

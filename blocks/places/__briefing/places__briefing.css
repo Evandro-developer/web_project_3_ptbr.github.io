@@ -28,13 +28,3 @@
     padding: 0 12px;
   }
 }
-
-@media (max-width: 320px) {
-  * {
-    transition: 0.4s ease-in-out;
-  }
-  .places__briefing {
-    max-width: 288px;
-    padding: 0 12px;
-  }
-}

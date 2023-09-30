@@ -44,18 +44,5 @@
     max-width: 288px;
     font-size: 32px;
     line-height: 35px;
-    padding: 0 12px;
-  }
-}
-
-@media (max-width: 320px) {
-  * {
-    transition: 0.4s ease-in-out;
-  }
-  .places__title {
-    max-width: 288px;
-    font-size: 32px;
-    line-height: 35px;
-    padding: 0 12px;
   }
 }

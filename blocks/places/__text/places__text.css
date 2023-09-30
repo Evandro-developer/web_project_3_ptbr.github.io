@@ -42,14 +42,14 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 484px) {
   * {
     transition: 0.4s ease-in-out;
   }
   .buttom__text {
     font-size: 14px;
     line-height: 18px;
-    width: 245px;
+    max-width: 288px;
     height: 17px;
   }
 }

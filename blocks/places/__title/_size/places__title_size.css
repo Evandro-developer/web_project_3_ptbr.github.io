@@ -1,6 +1,8 @@
 .places__title_size {
   max-width: 460px;
   max-height: 152px;
+  margin: 0;
+  padding: 0;
 }
 
 @media (max-width: 981px) {
@@ -50,18 +52,6 @@
 }
 
 @media (max-width: 355px) {
-  * {
-    transition: 0.4s ease-in-out;
-  }
-  .places__title_size {
-    max-width: 288px;
-    font-size: 32px;
-    line-height: 35px;
-    padding: 0 12px;
-  }
-}
-
-@media (max-width: 320px) {
   * {
     transition: 0.4s ease-in-out;
   }
